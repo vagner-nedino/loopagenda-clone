@@ -1,16 +1,31 @@
-# React + Vite
+# LoopAgenda — Replicação de Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de estudo e prática front-end focado na replicação da landing page e da experiência interativa do **LoopAgenda**, uma plataforma de agendamento online para prestadores de serviço.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Progresso do Desenvolvimento
+- [x] **Header:** Barra de navegação superior e identidade visual.
+- [x] **Seção Principal (Hero):** Chamada principal com texto dinâmico e demonstração interativa em tempo real do fluxo de agendamento no smartphone (seleção de serviço, profissional, data, horário e pagamento via Pix).
+- [ ] **Seção "Seu Tipo de Negócio":** *(Em desenvolvimento)* Apresentação dos segmentos e nichos atendidos pela plataforma.
+- [ ] **Demais seções e responsividade final.**
 
-## React Compiler
+## 💻 Como rodar o projeto localmente
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# 1. Clone este repositório
+git clone https://github.com
 
-## Expanding the ESLint configuration
+# 2. Acesse a pasta do projeto
+cd nome-do-repositorio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
+```
