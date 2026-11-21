@@ -1,0 +1,95 @@
+.principal{
+    width: 100%;
+    height: 100%;
+
+   
+}
+.seusclientes{
+    width: 100%;
+    max-width: 76rem;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.textop > span {
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -1.6px;
+    line-height: 64px;
+}
+
+
+.clientesesquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 898px;
+    padding-bottom: 80px;
+
+}
+
+.clientesdireita{
+    display: flex;
+    justify-content: center;
+    min-height: 898px;
+    flex-direction: column;
+    align-items: end;
+
+}
+.textop {
+    position: relative;
+    margin-bottom: 25px;
+    /* Reserva o espaço exato da altura do título (2 linhas de 64px + 1 linha dinâmica) */
+    min-height: 175px; 
+}
+#dinamico {
+    position: absolute;     /* Tira o elemento do fluxo: ele não empurra nada nem ninguém */
+    left: 0;
+    background-color: #4fec4f;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap;    /* Nunca quebra linha */
+}
+
+.desct{
+    color:rgb(82, 82, 91);
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 576px;
+    font-weight: 450;
+    padding-top: 20px;
+  
+}
+.teste{
+    width: 234px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #4fec5e;
+    font-size: 16px;
+
+}
+.checklist{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    justify-content: space-between;
+    color: #52525b;
+    font-weight: 700;
+    align-items: center;
+    padding-top:20px;
+}
+.teste2{
+    background-color: white;
+    border: solid 1px #4fec5e;
+    width: 234px;
+    height: 60px;
+    border-radius: 40px;
+    font-size: 16px;
+}
+.buttont{
+    padding-top: 25px;
+}
+
