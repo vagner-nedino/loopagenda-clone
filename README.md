@@ -11,7 +11,7 @@ Projeto de estudo e prática front-end focado na replicação da landing page e 
 ##  Progresso do Desenvolvimento
 - [x] **Header:** Barra de navegação superior e identidade visual.
 - [x] **Seção Principal (Hero):** Chamada principal com texto dinâmico e demonstração interativa em tempo real do fluxo de agendamento no smartphone (seleção de serviço, profissional, data, horário e pagamento via Pix).
-- [ ] **Seção "Seu Tipo de Negócio":** *(Em desenvolvimento)* Apresentação dos segmentos e nichos atendidos pela plataforma.
+- [x ] **Seção "Seu Tipo de Negócio":** *(Em desenvolvimento)* Apresentação dos segmentos e nichos atendidos pela plataforma.
 - [ ] **Demais seções e responsividade final.**
 
 ##  Como rodar o projeto localmente
