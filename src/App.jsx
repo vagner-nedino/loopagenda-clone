@@ -7,6 +7,7 @@ import Header from './components/header/Header'
 import './components/header/Header.css'
 import Principal from './components/Principal/principal'
 import './components/Principal/principal.css'
+import Segmentos from './components/segmentos/segmentos'
 function App() {
 
 
@@ -14,6 +15,7 @@ function App() {
     <>
      <Header/>
      <Principal/>
+     <Segmentos/>
     </>
   )
 }

@@ -5,7 +5,7 @@
         }
        
         .smartphone {
-            position: relative; width: 340px; height: 680px; background: #0d1a0e;
+            position: relative; width: 300px; height: 618px; background: #0d1a0e;
             border-radius: 44px; padding: 10px; box-sizing: border-box;
             box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.5);
         }
@@ -62,4 +62,7 @@
         .cursor.click { transform: translate(-50%, -50%) scale(0.6); background: rgba(27, 94, 32, 0.6); }
   
 
+.mobile{
+    height: 430px;
     
+}

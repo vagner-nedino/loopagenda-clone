@@ -12,7 +12,7 @@ export function useTextoDinamico(){
 }
 
 const frases = [
-    "ste de magrugada",
+    "site de magrugada",
     "você só atende",
   "Sem baixar app",
     "na sua pagina",
